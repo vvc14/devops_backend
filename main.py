@@ -9,14 +9,14 @@ bookmarks = [
         "url": "https://chat.openai.com",
         "category": "AI",
         "favourite": True
-    }
+    },
 ]
 
 
 @app.get("/")
 def home():
     return jsonify({
-        "status": "Bookmarks Manager API running successfully"
+        "status": "Bookmarks Manager API running successfully at port 8000"
     })
 
 
